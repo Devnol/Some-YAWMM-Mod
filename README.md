@@ -1,9 +1,8 @@
 # Some-YAWMM-Mod
 Based on YAWMM which itself is based on WAD Manager, modded up by various people.  
-Changes from the last YAWMM googlecode version:  
--updated to be compiled in the latest devkitppc, libogc versions  
--added on-the-fly IOS patches when AHBPROT is disabled, so no cIOS is required in those cases  
--support for classic controller, wiiu pro controller (on both wii and vwii) and wiiu gamepad (in wii vc mode)  
--small corrections in how the root path is selected (having no "wad" folder now correctly displays on device root)    
+Changes from Fix94's Some-YAWMM-Mod:   
+- Updated to be compiled in the latest devkitppc, libogc versions (tested in devkitPPC r40-3, libogc 2.3.1-1)
+- Added system menu version numbers for the Wii mini so that installing the Wii mini system menu
 
+For more info on Fix94's Some-YAWMM-Mod, check out its [github page](https://github.com/Fix94/Some-YAWMM-Mod)
 For more info on YAWMM itself, check its [original readme](README_YAWMM.txt).
