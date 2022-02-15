@@ -1,2 +1,4 @@
 build/
 Some-YAWMM-Mod.*
+include/wiidrc/*
+lib/libwiidrc.a
