@@ -39,6 +39,7 @@ SMRegion regionlist[] = {
 	{448, 'J'}, {449, 'E'}, {450, 'P'}, {454, 'K'},
 	{480, 'J'}, {481, 'E'}, {482, 'P'}, {486, 'K'},
 	{512, 'E'}, {513, 'E'}, {514, 'P'}, {518, 'K'},
+	{4609, 'E'}, {4610, 'P'} //Version numbers for Wii mini SM
 };
 
 #define NB_SM		(sizeof(regionlist) / sizeof(SMRegion))
@@ -72,7 +73,7 @@ u64 get_title_ios(u64 title) {
 			
 			//printf("Error! ES_GetStoredTMDSize: %d\n", ret);
 					
-			sprintf(filepath, "/title/%08lx/%08lx/content/title.tmd", TITLE_UPPER(title), TITLE_LOWER(title));
+			sprintf(filepath, "/title/%08x/%08x/content/title.tmd", TITLE_UPPER(title), TITLE_LOWER(title));
 			
 			ret = ISFS_Open(filepath, ISFS_OPEN_READ);
 			if (ret <= 0)
