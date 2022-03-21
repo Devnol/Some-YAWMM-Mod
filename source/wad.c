@@ -39,7 +39,8 @@ SMRegion regionlist[] = {
 	{448, 'J'}, {449, 'E'}, {450, 'P'}, {454, 'K'},
 	{480, 'J'}, {481, 'E'}, {482, 'P'}, {486, 'K'},
 	{512, 'E'}, {513, 'E'}, {514, 'P'}, {518, 'K'},
-	{4609, 'E'}, {4610, 'P'} //Version numbers for Wii mini SM
+	{4609, 'E'}, {4610, 'P'}, //Version numbers for Wii mini SM
+	{4689, 'E'}, {4690, 'P'} //4.3 SM installed by Wii mini SD Patcher
 };
 
 #define NB_SM		(sizeof(regionlist) / sizeof(SMRegion))

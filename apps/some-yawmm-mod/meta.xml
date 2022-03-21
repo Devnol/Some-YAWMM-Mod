@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <app version="1">
-	<name>Some YAWMM Mod</name>
-	<version>1.0</version>
+	<name>Some YAWMM Mod Mod</name>
+	<version>1.1</version>
 	<coder>various</coder>
 	<short_description>Install\Uninstall WADs</short_description>
 	<long_description>Press the "A" key to (un)install WADs. 

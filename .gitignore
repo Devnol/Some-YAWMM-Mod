@@ -2,3 +2,4 @@ build/
 Some-YAWMM-Mod.*
 include/wiidrc/*
 lib/libwiidrc.a
+apps/some-yawmm-mod/boot.dol
